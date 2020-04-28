@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header {
+    background-color: palevioletred;
+    padding: 50px 0px 50px 0;
+    text-align: center;
+}
+
+header img {
+    border-radius: 50%;
+    border: 20px solid white;
+    width: 300px;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+main {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+main img {
+    width: 175px;
+    border-radius: 50%;
+    border: teal solid 5px;
+}
+
+h2 {
+    font-size: 30px;
+    color: teal;
+    margin: 40px 0 10px;
+}
+
+.mainimage {
+    width: 100%;
+    border-radius: 0;
+    border: none;
+}
+
+.caption {
+    color: lightgrey;
+    font-style: italic;
+    font-size: 15px;
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+li img {
+    border-radius: 0;
+    border: teal solid 5px;
+    width: 100px;
+    margin: 0 40px;
+}
+
+figure p {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+figure {
+    margin: 20px 10px;
+}
+
+footer {
+    background-color: teal;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    opacity: 50%;
+}
